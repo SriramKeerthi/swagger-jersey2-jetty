@@ -7,7 +7,7 @@ All configurations are done with code, no web.xml, no Spring. Builds into a shad
 `mvn clean install`
 
 # Run
-`java -jar target\<output.jar>`
+`java -jar <output.jar>`
 
 # Help
-`sriram@raremile.com`
+<mailto:sriram@raremile.com>
