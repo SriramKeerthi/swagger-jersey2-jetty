@@ -3,7 +3,6 @@ package com.caffinc.swjrje.app;
 import com.caffinc.swjrje.webservices.EntityBrowser;
 import io.swagger.jaxrs.config.BeanConfig;
 import io.swagger.jaxrs.listing.ApiListingResource;
-import org.apache.log4j.Logger;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.handler.ContextHandler;
 import org.eclipse.jetty.server.handler.HandlerList;
@@ -13,13 +12,16 @@ import org.eclipse.jetty.servlet.ServletHolder;
 import org.eclipse.jetty.util.resource.Resource;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.servlet.ServletContainer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 /**
  * Main Class for starting the Entity Browser
  */
 public class App
 {
-    private static final Logger LOG = Logger.getLogger( App.class );
+    private static final Logger LOG = LoggerFactory.getLogger( App.class );
 
     private static final int SERVER_PORT = 9999;
 
