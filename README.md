@@ -11,3 +11,6 @@ All configurations are done with code, no web.xml, no Spring. Builds into a shad
 
 # Help
 <mailto:sriram@raremile.com>
+
+# Build Status
+[![Build Status](https://travis-ci.org/SriramKeerthi/swagger-jersey2-jetty.png)](https://travis-ci.org/SriramKeerthi/swagger-jersey2-jetty)
