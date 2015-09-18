@@ -1,0 +1,3 @@
+# Experimenting with Travis CI
+script:
+ - mvn clean install
