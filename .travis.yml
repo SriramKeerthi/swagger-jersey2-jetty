@@ -1,3 +1,3 @@
 # Experimenting with Travis CI
 script:
- - mvn clean install
+ - sh -c 'cd swagger-jersey2-jetty && mvn clean install'
